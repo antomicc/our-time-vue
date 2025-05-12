@@ -31,6 +31,9 @@
         <p class="text-gray-600 dark:text-gray-300 line-clamp-3 mb-4 flex-1">
           {{ memory.description }}
         </p>
+        <span @click="isDialogOpen = true" class="text-blue-500 dark:text-blue-400 cursor-pointer">
+          Leer más
+        </span>
 
         <div class="flex justify-between items-end mt-auto">
           <div class="flex items-center gap-2">
@@ -41,11 +44,26 @@
             </div>
           </div>
 
-          <button
-            @click="isDialogOpen = true"
-            class="px-4 py-2 text-sm border border-gray-200 dark:border-gray-600 rounded-md hover:bg-gray-50 dark:hover:bg-gray-700"
-          >
-            View Details
+          <button class="text-md">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="h-10 w-10"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+              />
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M15.91 11.672a.375.375 0 0 1 0 .656l-5.603 3.113a.375.375 0 0 1-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112Z"
+              />
+            </svg>
           </button>
         </div>
       </div>

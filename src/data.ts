@@ -1,47 +1,46 @@
 export const memories = [
   {
     id: '1',
-    date: 'June 12, 2021',
-    title: 'First Date',
+    date: 'Julio 12, 2015',
+    title: 'Nuestra Primera Cita',
     description:
-      'We met at that little café on Main Street. I was nervous, you were late, but somehow it was perfect.',
-    location: 'Café Lumière',
+      'La primerza vez que nos conocimos. Recuerdo que estaba nervioso y tu sonrisa me hizo sentir mejor.',
+    location: 'Miraflores Cinepolis',
     imageUrl:
-      'https://images.pexels.com/photos/1684187/pexels-photo-1684187.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+      'https://www.soy502.com/sites/default/files/styles/full_node/public/2022/Jun/27/cuando_donde_minions_villano_guatemala_.jpeg',
     song: {
-      title: 'Sparks',
-      artist: 'Coldplay',
-      url: 'https://open.spotify.com/track/79hN1Jy9qR11t2SjbvDUu0',
+      title: 'Let Me Love You',
+      artist: 'Justin Bieber ft. DJ Snake',
+      url: 'https://music.youtube.com/watch?v=rJ0D1GbDq1Q&si=EHZb52-YfczSwWI2',
     },
   },
   {
     id: '2',
-    date: 'July 21, 2021',
-    title: 'First Kiss',
+    date: 'Octubre, 2015',
+    title: 'Nuestro Primer Beso',
     description:
-      "Under the stars at the summer festival. The fireworks weren't just in the sky that night.",
-    location: 'Liberty Park',
+      'Nuestro primer beso fue sencillo, fue un impulso, un instinto. Solo te miré y me acerqué.',
+    location: 'Cine de Tikal Futura',
     imageUrl:
-      'https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+      'https://scontent.fgua2-2.fna.fbcdn.net/v/t39.30808-6/493678679_9442593145846421_117038592146869859_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=100&ccb=1-7&_nc_sid=cf85f3&_nc_ohc=m1B2FeAWUw0Q7kNvwG82GGm&_nc_oc=AdmuzkWq-o_cyEYsrMjJTb5gsWbO07Yb9FfrMJ0emV73vdDIkUtBgMmjhNPLANk17yf8FbkyHRC6EUimZcQq8WLh&_nc_zt=23&_nc_ht=scontent.fgua2-2.fna&_nc_gid=1W8RfCBm_TDbYl5VMBIv2Q&oh=00_AfKKxCc9mzsEvyvX_raRry5oQDwmsftW_rCQ93Opg0TRLg&oe=6827FA9B',
     song: {
-      title: 'Lovesong',
-      artist: 'The Cure',
-      url: 'https://open.spotify.com/track/6NTRGPmYfZTIGwQlWW6Uou',
+      title: 'Runaway (U & I)',
+      artist: 'Galantis',
+      url: 'https://music.youtube.com/watch?v=h8rxsShxan4&si=pQYAkFmnyPkkfgRb',
     },
   },
   {
     id: '3',
-    date: 'October 5, 2021',
-    title: 'Weekend Getaway',
+    date: 'Noviembre 6, 2015',
+    title: 'Me dejiste que si y pero tu cuerpo decia no',
     description:
-      'That spontaneous road trip to the coast. We got lost twice but found the most beautiful sunset.',
-    location: 'Coastal Highway',
-    imageUrl:
-      'https://images.pexels.com/photos/3935702/pexels-photo-3935702.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+      'En el mismo lugar donde te di el primer beso, me dejiste que si y pero tu cuerpo decia no. Recuerdo que te regalé un cafe y no te cayo tan bien. A pesar de todo, ese momento me hace feliz.',
+    location: 'Cine de Tikal Futura',
+    imageUrl: 'src/assets/images/primera_vez_nobios.jpg',
     song: {
-      title: 'Dreams',
-      artist: 'Fleetwood Mac',
-      url: 'https://open.spotify.com/track/0ofHAoxe9vBkTCp2UQIavz',
+      title: 'Es Por Ti',
+      artist: 'Juanes',
+      url: 'https://music.youtube.com/watch?v=5aq0NdXYrMY&si=8OXIVl-_2hAjN98x',
     },
   },
   {
