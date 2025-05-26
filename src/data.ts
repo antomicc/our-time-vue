@@ -45,10 +45,11 @@ export const memories = [
   },
   {
     id: '4',
-    date: 'December 24, 2021',
-    title: 'First Christmas',
-    description: 'You surprised me with that thoughtful gift. I knew then what we had was special.',
-    location: "Your Parents' House",
+    date: '14 de Febrero, 2016',
+    title: 'Primera vez en el Irtra',
+    description:
+      'Fue un día lleno de risas y emociones. Recuerdo que es la primera vez que te vi palida despues de subir al rascacielos.',
+    location: 'Irtra Petapa',
     imageUrl:
       'https://images.pexels.com/photos/1809644/pexels-photo-1809644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     song: {
@@ -59,11 +60,11 @@ export const memories = [
   },
   {
     id: '5',
-    date: 'February 14, 2022',
-    title: "Valentine's Day",
+    date: 'Marzo, 2016',
+    title: 'Naciones Unidas',
     description:
-      'The restaurant was packed but it felt like we were the only ones there. I still have the note you wrote me.',
-    location: 'Bella Luna Restaurant',
+      'Empezamos a salir juntos al parque de la naciones unidas y disfrutar de nosotros, empezamos a conocernos intimamente.',
+    location: 'parque de la naciones unidas',
     imageUrl:
       'https://images.pexels.com/photos/1024960/pexels-photo-1024960.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     song: {
@@ -74,11 +75,11 @@ export const memories = [
   },
   {
     id: '6',
-    date: 'May 17, 2022',
-    title: 'Moving In Together',
+    date: 'Junio, 2016',
+    title: 'Siempre nos divertimos',
     description:
-      "Boxes everywhere, furniture that didn't fit, and the excitement of starting our life together.",
-    location: 'Our First Apartment',
+      'Hemos estado yendo al Irtra tantas veces juntos que nuestras fotos son incontables.',
+    location: 'Irtra',
     imageUrl:
       'https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     song: {
@@ -89,11 +90,10 @@ export const memories = [
   },
   {
     id: '7',
-    date: 'August 3, 2022',
-    title: 'Summer Vacation',
-    description:
-      'Two weeks of sun, sand, and adventure. I still laugh thinking about you trying to surf.',
-    location: 'Maui, Hawaii',
+    date: 'Agosto, 2016',
+    title: 'Biblioteca de USAC',
+    description: 'Hemos ido solo una vez a la biblioteca de USAC, sin fotos, solo curiosidad.',
+    location: 'USAC',
     imageUrl:
       'https://images.pexels.com/photos/1451040/pexels-photo-1451040.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     song: {
@@ -104,10 +104,83 @@ export const memories = [
   },
   {
     id: '8',
-    date: 'November 22, 2022',
-    title: 'Meeting the Family',
-    description: 'Thanksgiving dinner with both our families. Chaos, laughter, and too much food.',
-    location: "Your Sister's House",
+    date: 'Marzo, 2018',
+    title: 'Aprendiendo a manejar la bicileta',
+    description:
+      'Te vi aprendiendo a manejar la bicicleta, te costo un poco pero al final lo lograste',
+    location: 'Naciones Unidas',
+    imageUrl:
+      'https://images.pexels.com/photos/3184183/pexels-photo-3184183.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    song: {
+      title: 'Home',
+      artist: 'Michael Bublé',
+      url: 'https://open.spotify.com/track/2s9QWMzOF3AhRCvmJcavDJ',
+    },
+  },
+  {
+    id: '9',
+    date: 'Noviembre, 2018',
+    title: 'El Parque Extremo',
+    description: 'Tu y yo diviertendos al extremo.',
+    location: 'Extreme Park',
+    imageUrl:
+      'https://images.pexels.com/photos/3184183/pexels-photo-3184183.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    song: {
+      title: 'Home',
+      artist: 'Michael Bublé',
+      url: 'https://open.spotify.com/track/2s9QWMzOF3AhRCvmJcavDJ',
+    },
+  },
+  {
+    id: '10',
+    date: 'Agosto, 2019',
+    title: 'Feria de Jocotenango',
+    description: 'La feria de Jocotenango fue un momento especial, nuestra primera feria juntos.',
+    location: 'Feria de Jocotenango',
+    imageUrl:
+      'https://images.pexels.com/photos/3184183/pexels-photo-3184183.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    song: {
+      title: 'Home',
+      artist: 'Michael Bublé',
+      url: 'https://open.spotify.com/track/2s9QWMzOF3AhRCvmJcavDJ',
+    },
+  },
+  {
+    id: '11',
+    date: 'Marzo, 2020',
+    title: 'Pandemia y confinamiento',
+    description:
+      'La pandemia nos hizo estar separados por un tiempo, pero aprendimos a valorarnos más y a disfrutar de los pequeños momentos juntos.',
+    location: 'En casa',
+    imageUrl:
+      'https://images.pexels.com/photos/3184183/pexels-photo-3184183.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    song: {
+      title: 'Home',
+      artist: 'Michael Bublé',
+      url: 'https://open.spotify.com/track/2s9QWMzOF3AhRCvmJcavDJ',
+    },
+  },
+  {
+    id: '12',
+    date: '7 Noviembre, 2020',
+    title: '5 Años Juntos',
+    description:
+      'Cumplir 5 años juntos fue un momento especial, celebramos nuestro amor y todo lo que hemos vivido juntos.',
+    location: 'En casa',
+    imageUrl:
+      'https://images.pexels.com/photos/3184183/pexels-photo-3184183.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    song: {
+      title: 'Home',
+      artist: 'Michael Bublé',
+      url: 'https://open.spotify.com/track/2s9QWMzOF3AhRCvmJcavDJ',
+    },
+  },
+  {
+    id: '13',
+    date: '4 Abril, 2021',
+    title: 'Nuestro primer viaje juntos',
+    description: 'Fuimos sin planear mucho con mi familia, tu y yo hablamos de lo sentimos.',
+    location: 'Bonanza La Ponderosa',
     imageUrl:
       'https://images.pexels.com/photos/3184183/pexels-photo-3184183.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     song: {
