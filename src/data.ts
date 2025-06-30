@@ -50,8 +50,7 @@ export const memories = [
     description:
       'Fue un día lleno de risas y emociones. Recuerdo que es la primera vez que te vi palida despues de subir al rascacielos.',
     location: 'Irtra Petapa',
-    imageUrl:
-      'https://images.pexels.com/photos/1809644/pexels-photo-1809644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    imageUrl: 'src/assets/images/foto_irtra.jpg',
     song: {
       title: 'Winter',
       artist: 'Khalid',
@@ -65,8 +64,7 @@ export const memories = [
     description:
       'Empezamos a salir juntos al parque de la naciones unidas y disfrutar de nosotros, empezamos a conocernos intimamente.',
     location: 'parque de la naciones unidas',
-    imageUrl:
-      'https://images.pexels.com/photos/1024960/pexels-photo-1024960.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    imageUrl: 'src/assets/images/Nacines.jpg',
     song: {
       title: "Can't Help Falling in Love",
       artist: 'Elvis Presley',
@@ -80,8 +78,7 @@ export const memories = [
     description:
       'Hemos estado yendo al Irtra tantas veces juntos que nuestras fotos son incontables.',
     location: 'Irtra',
-    imageUrl:
-      'https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    imageUrl: 'src/assets/images/Recuerdo_irtra.jpg',
     song: {
       title: 'Home',
       artist: 'Edward Sharpe & The Magnetic Zeros',
@@ -94,8 +91,7 @@ export const memories = [
     title: 'Biblioteca de USAC',
     description: 'Hemos ido solo una vez a la biblioteca de USAC, sin fotos, solo curiosidad.',
     location: 'USAC',
-    imageUrl:
-      'https://images.pexels.com/photos/1451040/pexels-photo-1451040.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    imageUrl: 'https://bibliohumanidades.usac.edu.gt/images/BCUSAC.jpg',
     song: {
       title: 'Island In The Sun',
       artist: 'Weezer',
@@ -109,8 +105,7 @@ export const memories = [
     description:
       'Te vi aprendiendo a manejar la bicicleta, te costo un poco pero al final lo lograste',
     location: 'Naciones Unidas',
-    imageUrl:
-      'https://images.pexels.com/photos/3184183/pexels-photo-3184183.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    imageUrl: 'src/assets/images/manejando_bici.jpg',
     song: {
       title: 'Home',
       artist: 'Michael Bublé',
@@ -123,8 +118,7 @@ export const memories = [
     title: 'El Parque Extremo',
     description: 'Tu y yo diviertendos al extremo.',
     location: 'Extreme Park',
-    imageUrl:
-      'https://images.pexels.com/photos/3184183/pexels-photo-3184183.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    imageUrl: 'src/assets/images/extreme_park.jpg',
     song: {
       title: 'Home',
       artist: 'Michael Bublé',
@@ -137,8 +131,7 @@ export const memories = [
     title: 'Feria de Jocotenango',
     description: 'La feria de Jocotenango fue un momento especial, nuestra primera feria juntos.',
     location: 'Feria de Jocotenango',
-    imageUrl:
-      'https://images.pexels.com/photos/3184183/pexels-photo-3184183.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    imageUrl: 'src/assets/images/primera_vez_feria.jpg',
     song: {
       title: 'Home',
       artist: 'Michael Bublé',
@@ -151,24 +144,8 @@ export const memories = [
     title: 'Pandemia y confinamiento',
     description:
       'La pandemia nos hizo estar separados por un tiempo, pero aprendimos a valorarnos más y a disfrutar de los pequeños momentos juntos.',
-    location: 'En casa',
-    imageUrl:
-      'https://images.pexels.com/photos/3184183/pexels-photo-3184183.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    song: {
-      title: 'Home',
-      artist: 'Michael Bublé',
-      url: 'https://open.spotify.com/track/2s9QWMzOF3AhRCvmJcavDJ',
-    },
-  },
-  {
-    id: '12',
-    date: '7 Noviembre, 2020',
-    title: '5 Años Juntos',
-    description:
-      'Cumplir 5 años juntos fue un momento especial, celebramos nuestro amor y todo lo que hemos vivido juntos.',
-    location: 'En casa',
-    imageUrl:
-      'https://images.pexels.com/photos/3184183/pexels-photo-3184183.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    location: 'Irtra Petapa',
+    imageUrl: 'src/assets/images/celebrando_pandemia.jpg',
     song: {
       title: 'Home',
       artist: 'Michael Bublé',
@@ -181,8 +158,7 @@ export const memories = [
     title: 'Nuestro primer viaje juntos',
     description: 'Fuimos sin planear mucho con mi familia, tu y yo hablamos de lo que sentimos.',
     location: 'Bonanza La Ponderosa',
-    imageUrl:
-      'https://images.pexels.com/photos/3184183/pexels-photo-3184183.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    imageUrl: 'src/assets/images/viaje_tecpan.jpg',
     song: {
       title: 'Home',
       artist: 'Michael Bublé',
@@ -196,8 +172,7 @@ export const memories = [
     description:
       'Aun hay secuelas de la pandemia, pero empezamos el año juntos y con muchas ganas.',
     location: 'Irtra Petapa',
-    imageUrl:
-      'https://images.pexels.com/photos/3184183/pexels-photo-3184183.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    imageUrl: 'src/assets/images/irtra_pandemia.jpg',
     song: {
       title: 'Home',
       artist: 'Michael Bublé',
@@ -210,7 +185,7 @@ export const memories = [
     title: 'Primer viaje, solo nosotros',
     description:
       'Es la primera ves que viajamos solos, sin familia, solo nosotros dos. Fue un viaje corto pero nos conectamos bastante y nos llenamos de amor.',
-    location: 'Bee Cabañas',
+    location: 'src/assets/images/viaje_bee.jpg',
     imageUrl:
       'https://images.pexels.com/photos/3184183/pexels-photo-3184183.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     song: {
@@ -221,13 +196,12 @@ export const memories = [
   },
   {
     id: '16',
-    date: 'Siempre',
-    title: 'Cool',
+    date: 'Siempre Tu',
+    title: 'Siempre Tu',
     description:
-      'Tu aura es tan fresca y relajante, siempre me haces sentir bien cuando estoy contigo.',
+      'Tu aura es tan fresca y relajante, siempre me haces sentir bien cuando estoy contigo, siemopre Tu.',
     location: 'En cualquier lugar',
-    imageUrl:
-      'https://images.pexels.com/photos/3184183/pexels-photo-3184183.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    imageUrl: 'src/assets/images/siempre_cool.jpg',
     song: {
       title: 'Home',
       artist: 'Michael Bublé',
@@ -241,8 +215,7 @@ export const memories = [
     description:
       'Tu y yo tomando café, hablando de la vida es siempre un clásico que nunca pasa de moda.',
     location: 'Todos los lugares',
-    imageUrl:
-      'https://images.pexels.com/photos/3184183/pexels-photo-3184183.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    imageUrl: 'src/assets/images/tomando_cafe.jpg',
     song: {
       title: 'Home',
       artist: 'Michael Bublé',
@@ -256,8 +229,7 @@ export const memories = [
     description:
       'La comida estaba bien, el ambiente era agradable, pero tu torito no era un torito.',
     location: 'Restaurante en Miraflores',
-    imageUrl:
-      'https://images.pexels.com/photos/3184183/pexels-photo-3184183.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    imageUrl: 'src/assets/images/el_torito_que_no.jpg',
     song: {
       title: 'Home',
       artist: 'Michael Bublé',
@@ -270,8 +242,7 @@ export const memories = [
     title: '7 Años Juntos',
     description: 'Celebramos tarde nuestro aniversario, pero lo hicimos con mucho amor y alegría.',
     location: 'Irtra, de noche',
-    imageUrl:
-      'https://images.pexels.com/photos/3184183/pexels-photo-3184183.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    imageUrl: 'src/assets/images/irtra_noche.jpg',
     song: {
       title: 'Home',
       artist: 'Michael Bublé',
@@ -285,36 +256,7 @@ export const memories = [
     description:
       'Empezamos otro año juntos, con muchas ganas de seguir creciendo y aprendiendo juntos.',
     location: 'En Casa',
-    imageUrl:
-      'https://images.pexels.com/photos/3184183/pexels-photo-3184183.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    song: {
-      title: 'Home',
-      artist: 'Michael Bublé',
-      url: 'https://open.spotify.com/track/2s9QWMzOF3AhRCvmJcavDJ',
-    },
-  },
-  {
-    id: '21',
-    date: '16 Agosto, 2023',
-    title: 'Segunda Feria',
-    description: 'Volvimos a la feria de Jocotenango, esta vez con más experiencia y más amor.',
-    location: 'Feria de Jocotenango',
-    imageUrl:
-      'https://images.pexels.com/photos/3184183/pexels-photo-3184183.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    song: {
-      title: 'Home',
-      artist: 'Michael Bublé',
-      url: 'https://open.spotify.com/track/2s9QWMzOF3AhRCvmJcavDJ',
-    },
-  },
-  {
-    id: '22',
-    date: '16 Agosto, 2023',
-    title: 'Segunda Feria',
-    description: 'Volvimos a la feria de Jocotenango, esta vez con más experiencia y más amor.',
-    location: 'Feria de Jocotenango',
-    imageUrl:
-      'https://images.pexels.com/photos/3184183/pexels-photo-3184183.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    imageUrl: 'src/assets/images/año_nuevo.jpg',
     song: {
       title: 'Home',
       artist: 'Michael Bublé',
@@ -327,8 +269,7 @@ export const memories = [
     title: 'Viendo las estrellas',
     description: 'Estamos cumpliendo 8 años juntos y celebramos viendo las estrellas.',
     location: 'El Barranco',
-    imageUrl:
-      'https://images.pexels.com/photos/3184183/pexels-photo-3184183.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    imageUrl: 'src/assets/images/viendo_las_estrellas.jpg',
     song: {
       title: 'Home',
       artist: 'Michael Bublé',
@@ -342,8 +283,7 @@ export const memories = [
     description:
       'Fuimos a la playa por primera vez juntos, fue un momento mágico lleno de risas y amor.',
     location: 'Puerto Chulamar',
-    imageUrl:
-      'https://images.pexels.com/photos/3184183/pexels-photo-3184183.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    imageUrl: 'src/assets/images/viaje_playa.jpg',
     song: {
       title: 'Home',
       artist: 'Michael Bublé',
@@ -356,9 +296,8 @@ export const memories = [
     title: 'Primer Concierto',
     description:
       'Fuimos a nuestro primer concierto juntos, fue una experiencia inolvidable llena de música',
-    location: 'Puerto Chulamar',
-    imageUrl:
-      'https://images.pexels.com/photos/3184183/pexels-photo-3184183.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    location: 'Parque de la industria',
+    imageUrl: 'src/assets/images/primer_concierto.jpg',
     song: {
       title: 'Home',
       artist: 'Michael Bublé',
@@ -372,8 +311,7 @@ export const memories = [
     description:
       'En tu cumpleaños, decidimos celebrar a lo italiano, con una cena especial en un rincon bonito.',
     location: 'Restaurante Dolcelato',
-    imageUrl:
-      'https://images.pexels.com/photos/3184183/pexels-photo-3184183.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    imageUrl: 'src/assets/images/dolcelato.jpg',
     song: {
       title: 'Home',
       artist: 'Michael Bublé',
@@ -387,8 +325,21 @@ export const memories = [
     description:
       'Cerca de mi cumpleaños, recuerdo que tu y yo somos más que una pareja, estamos conectados de una manera especial.',
     location: 'En todos los lugares',
-    imageUrl:
-      'https://images.pexels.com/photos/3184183/pexels-photo-3184183.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    imageUrl: 'src/assets/images/tu_y_yo.jpg',
+    song: {
+      title: 'Home',
+      artist: 'Michael Bublé',
+      url: 'https://open.spotify.com/track/2s9QWMzOF3AhRCvmJcavDJ',
+    },
+  },
+  {
+    id: '28',
+    date: '27 Octubre, 2024',
+    title: 'Fuimos a Jalapa',
+    description:
+      'Un viaje corto a Jalapa con tu familia, un chapuzon en los Chorros, un momento especial contigo.',
+    location: 'Jalapa',
+    imageUrl: 'src/assets/images/en_los_chorros.jpg',
     song: {
       title: 'Home',
       artist: 'Michael Bublé',
@@ -402,8 +353,21 @@ export const memories = [
     description:
       'Hemos ido a Santa Teresita, un lugar bonito para relajarnos y disfrutar de la vista.',
     location: 'Santa Teresita, Amatitlán',
-    imageUrl:
-      'https://images.pexels.com/photos/3184183/pexels-photo-3184183.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    imageUrl: 'src/assets/images/santa_teresita.jpg',
+    song: {
+      title: 'Home',
+      artist: 'Michael Bublé',
+      url: 'https://open.spotify.com/track/2s9QWMzOF3AhRCvmJcavDJ',
+    },
+  },
+  {
+    id: '29',
+    date: 'Noviembre, 2024',
+    title: 'Buscando un hogar',
+    description:
+      'HTu y yo hemos estado buscando un hogar juntos, un lugar donde podamos construir nuestro futuro.',
+    location: 'San José Pinula',
+    imageUrl: 'src/assets/images/buscando_un_hogar.jpg',
     song: {
       title: 'Home',
       artist: 'Michael Bublé',
@@ -417,23 +381,7 @@ export const memories = [
     description:
       'Ha sido nuestra primera Navidad juntos, disfrutamos de la cena, la familia y estar juntos.',
     location: 'En tu casa',
-    imageUrl:
-      'https://images.pexels.com/photos/3184183/pexels-photo-3184183.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    song: {
-      title: 'Home',
-      artist: 'Michael Bublé',
-      url: 'https://open.spotify.com/track/2s9QWMzOF3AhRCvmJcavDJ',
-    },
-  },
-  {
-    id: '30',
-    date: '25 Diciembre, 2024',
-    title: 'Primera Navidad juntos',
-    description:
-      'Ha sido nuestra primera Navidad juntos, disfrutamos de la cena, la familia y estar juntos.',
-    location: 'En tu casa',
-    imageUrl:
-      'https://images.pexels.com/photos/3184183/pexels-photo-3184183.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    imageUrl: 'src/assets/images/primera_navidad.jpg',
     song: {
       title: 'Home',
       artist: 'Michael Bublé',
@@ -447,8 +395,21 @@ export const memories = [
     description:
       'No es el mejor viaje que hemos hecho, pero es gracioso recordar los momentos que pasamos juntos, aun asi tiene unas de las mejores vistas.',
     location: 'Altamira, Antigua Guatemala',
-    imageUrl:
-      'https://images.pexels.com/photos/3184183/pexels-photo-3184183.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    imageUrl: 'src/assets/images/viaje_altamira.jpg',
+    song: {
+      title: 'Home',
+      artist: 'Michael Bublé',
+      url: 'https://open.spotify.com/track/2s9QWMzOF3AhRCvmJcavDJ',
+    },
+  },
+  {
+    id: '31',
+    date: '9 Marzo, 2025',
+    title: 'Viendo Hortalizas',
+    description:
+      'Nos hechamos una vuelta por el Trapiche, Guatemala, donde vimos hortalizas y disfrutamos del jardin',
+    location: 'El Trapiche, Guatemala',
+    imageUrl: 'src/assets/images/viendo_ortalizas.jpg',
     song: {
       title: 'Home',
       artist: 'Michael Bublé',
@@ -462,8 +423,34 @@ export const memories = [
     description:
       'Nunca te habia visto tan feliz, el concierto de Siddharta fue un momento especial, lleno de música y emoción.',
     location: 'Parque de la Industria',
-    imageUrl:
-      'https://images.pexels.com/photos/3184183/pexels-photo-3184183.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    imageUrl: 'src/assets/images/viendo_siddartha.jpg',
+    song: {
+      title: 'Home',
+      artist: 'Michael Bublé',
+      url: 'https://open.spotify.com/track/2s9QWMzOF3AhRCvmJcavDJ',
+    },
+  },
+  {
+    id: '33',
+    date: '30 Marzo, 2025',
+    title: 'Probando lo Dulce',
+    description:
+      'Siempre nos ha gustado lo dulce, que viva el exceso de azucar y la comida deliciosa.',
+    location: 'UnCrepe, Guatemala',
+    imageUrl: 'src/assets/images/probando_lo_dulce.jpg',
+    song: {
+      title: 'Home',
+      artist: 'Michael Bublé',
+      url: 'https://open.spotify.com/track/2s9QWMzOF3AhRCvmJcavDJ',
+    },
+  },
+  {
+    id: '34',
+    date: '4 Mayo, 2025',
+    title: 'Vacaciones en Amatitlan',
+    description: 'Un fin de semana en Amatitlán, disfrutando del sol y la compañía.',
+    location: 'Amatitlán',
+    imageUrl: 'src/assets/images/irtra_amatitlan.jpg',
     song: {
       title: 'Home',
       artist: 'Michael Bublé',
