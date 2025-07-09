@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, onMounted, onUnmounted } from 'vue'
+import { ref, onMounted, onUnmounted, computed } from 'vue'
 import emblaCarouselVue from 'embla-carousel-vue'
 import { ChevronUp, ChevronDown } from 'lucide-vue-next'
 import type { Memory } from '../types.ts'
@@ -14,6 +14,21 @@ const [emblaRef, emblaApi] = emblaCarouselVue({
   loop: false,
   dragFree: false,
   containScroll: 'trimSnaps',
+})
+
+const DOTS_VISIBLE = 7 // Cambia este valor según lo que prefieras
+
+const startDot = computed(() => {
+  if (props.memories.length <= DOTS_VISIBLE) return 0
+  // Centra el dot activo, pero no salgas de los límites
+  const half = Math.floor(DOTS_VISIBLE / 2)
+  if (activeIndex.value <= half) return 0
+  if (activeIndex.value >= props.memories.length - half) return props.memories.length - DOTS_VISIBLE
+  return activeIndex.value - half
+})
+
+const visibleDots = computed(() => {
+  return props.memories.slice(startDot.value, startDot.value + DOTS_VISIBLE)
 })
 
 const activeIndex = ref(0)
@@ -76,18 +91,21 @@ onUnmounted(() => {
     </div>
 
     <!-- Timeline dots -->
-    <div class="absolute left-4 top-1/2 transform -translate-y-1/2 z-10 flex flex-col gap-4">
+    <div
+      class="absolute left-1 p-2 top-1/2 transform -translate-y-1/2 z-10 flex flex-col gap-4"
+      style="max-height: 300px; overflow-y: auto"
+    >
       <button
-        v-for="(_, index) in memories"
-        :key="index"
-        @click="scrollTo(index)"
+        v-for="(_, idx) in visibleDots"
+        :key="startDot + idx"
+        @click="scrollTo(startDot + idx)"
         class="w-3 h-3 rounded-full transition-all duration-300"
         :class="[
-          activeIndex === index
+          activeIndex === startDot + idx
             ? 'bg-black dark:bg-white scale-125'
             : 'bg-gray-300 dark:bg-gray-600 hover:bg-gray-400 dark:hover:bg-gray-500',
         ]"
-        :aria-label="`Go to memory ${index + 1}`"
+        :aria-label="`Go to memory ${startDot + idx + 1}`"
       />
     </div>
 
@@ -103,6 +121,11 @@ onUnmounted(() => {
             <div class="w-full max-w-md">
               <MemoryCard :memory="memory" :is-active="activeIndex === index" />
             </div>
+          </div>
+          <div class="flex items-center justify-center min-h-[100svh] w-full">
+            <span class="text-black text-center text-lg font-medium">
+              Esta lista se está llenando justo ahora...
+            </span>
           </div>
         </div>
       </div>

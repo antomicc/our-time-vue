@@ -4,7 +4,7 @@
       class="flex flex-col h-full transition-all duration-700 transform"
       :class="[isActive ? 'opacity-100 scale-100' : 'opacity-40 scale-95']"
     >
-      <div class="relative w-full aspect-[4/3] overflow-hidden rounded-t-xl">
+      <div class="relative w-full aspect-[9/16] overflow-hidden rounded-t-xl">
         <img
           :src="memory.imageUrl"
           :alt="memory.title"
@@ -28,7 +28,7 @@
 
       <div class="p-5 bg-white dark:bg-gray-800 flex-1 flex flex-col rounded-b-xl shadow-md">
         <h3 class="text-xl font-semibold mb-2">{{ memory.title }}</h3>
-        <p class="text-gray-600 dark:text-gray-300 line-clamp-3 mb-4 flex-1">
+        <p class="text-gray-600 dark:text-gray-300 line-clamp-3 mb-2 flex-1">
           {{ memory.description }}
         </p>
         <span @click="isDialogOpen = true" class="text-blue-500 dark:text-blue-400 cursor-pointer">
@@ -44,7 +44,13 @@
             </div>
           </div>
 
-          <button class="text-md">
+          <a
+            :href="memory.song.url"
+            target="_blank"
+            rel="noopener"
+            class="text-md"
+            title="Escuchar canción"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -64,7 +70,7 @@
                 d="M15.91 11.672a.375.375 0 0 1 0 .656l-5.603 3.113a.375.375 0 0 1-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112Z"
               />
             </svg>
-          </button>
+          </a>
         </div>
       </div>
     </div>
@@ -95,7 +101,7 @@
             <img
               :src="memory.imageUrl"
               :alt="memory.title"
-              class="absolute inset-0 w-full h-full object-cover"
+              class="absolute inset-0 w-full h-full object-contain"
             />
           </div>
 
@@ -111,15 +117,6 @@
                   <p class="text-gray-500 dark:text-gray-400 text-sm">{{ memory.song.artist }}</p>
                 </div>
               </div>
-            </div>
-
-            <div class="flex flex-col items-center gap-2">
-              <p class="text-xs text-center text-gray-500 dark:text-gray-400">Scan to listen</p>
-              <QRCode
-                :value="memory.song.url"
-                :size="120"
-                class="rounded-lg overflow-hidden shadow-sm"
-              />
             </div>
           </div>
         </div>

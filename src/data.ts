@@ -21,8 +21,7 @@ export const memories = [
     description:
       'Nuestro primer beso fue sencillo, fue un impulso, un instinto. Solo te miré y me acerqué.',
     location: 'Cine de Tikal Futura',
-    imageUrl:
-      'https://scontent.fgua2-2.fna.fbcdn.net/v/t39.30808-6/493678679_9442593145846421_117038592146869859_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=100&ccb=1-7&_nc_sid=cf85f3&_nc_ohc=m1B2FeAWUw0Q7kNvwG82GGm&_nc_oc=AdmuzkWq-o_cyEYsrMjJTb5gsWbO07Yb9FfrMJ0emV73vdDIkUtBgMmjhNPLANk17yf8FbkyHRC6EUimZcQq8WLh&_nc_zt=23&_nc_ht=scontent.fgua2-2.fna&_nc_gid=1W8RfCBm_TDbYl5VMBIv2Q&oh=00_AfKKxCc9mzsEvyvX_raRry5oQDwmsftW_rCQ93Opg0TRLg&oe=6827FA9B',
+    imageUrl: 'src/assets/images/primer_beso.jpg',
     song: {
       title: 'Runaway (U & I)',
       artist: 'Galantis',
@@ -52,9 +51,9 @@ export const memories = [
     location: 'Irtra Petapa',
     imageUrl: 'src/assets/images/foto_irtra.jpg',
     song: {
-      title: 'Winter',
-      artist: 'Khalid',
-      url: 'https://open.spotify.com/track/55AQAsmkOHX6NvXlYzoeUw',
+      title: 'Departamento',
+      artist: 'Bandalos Chinos',
+      url: 'https://music.youtube.com/watch?v=cDRf0AwLGc0&si=oazmTLje70Ao3kFJ',
     },
   },
   {
@@ -66,9 +65,9 @@ export const memories = [
     location: 'parque de la naciones unidas',
     imageUrl: 'src/assets/images/Nacines.jpg',
     song: {
-      title: "Can't Help Falling in Love",
-      artist: 'Elvis Presley',
-      url: 'https://open.spotify.com/track/44AyOl4qVkzS48vBsbNXaC',
+      title: 'Carmin',
+      artist: 'Romeo Santos ft. Juan Luis Guerra',
+      url: 'https://music.youtube.com/watch?v=TNIvkhSNiGc&si=mDuywZWmSqE3Y9Gh',
     },
   },
   {
@@ -80,9 +79,9 @@ export const memories = [
     location: 'Irtra',
     imageUrl: 'src/assets/images/Recuerdo_irtra.jpg',
     song: {
-      title: 'Home',
-      artist: 'Edward Sharpe & The Magnetic Zeros',
-      url: 'https://open.spotify.com/track/7qtTg2r3iZXBMRRiAQeby0',
+      title: 'Que Lindo es Acordame de Vos',
+      artist: 'Bandalos Chinos',
+      url: 'https://music.youtube.com/watch?v=2UklN2w5XLs&si=qBwd-ehldfJ3DrZh',
     },
   },
   {
@@ -93,9 +92,9 @@ export const memories = [
     location: 'USAC',
     imageUrl: 'https://bibliohumanidades.usac.edu.gt/images/BCUSAC.jpg',
     song: {
-      title: 'Island In The Sun',
-      artist: 'Weezer',
-      url: 'https://open.spotify.com/track/2MLHyLy5z5l5YRp7momlgw',
+      title: 'Adonde Quieras',
+      artist: 'El Zar',
+      url: 'https://music.youtube.com/watch?v=3AMXJDuy8d8&si=9ohQNYS7TtMYq3IX',
     },
   },
   {
@@ -107,9 +106,9 @@ export const memories = [
     location: 'Naciones Unidas',
     imageUrl: 'src/assets/images/manejando_bici.jpg',
     song: {
-      title: 'Home',
-      artist: 'Michael Bublé',
-      url: 'https://open.spotify.com/track/2s9QWMzOF3AhRCvmJcavDJ',
+      title: 'La Bicicleta',
+      artist: 'Carlos Vives & Shakira',
+      url: 'https://music.youtube.com/watch?v=X2yOPS3FabE&si=pr2hqQULOtLK6hMQ',
     },
   },
   {
@@ -120,9 +119,9 @@ export const memories = [
     location: 'Extreme Park',
     imageUrl: 'src/assets/images/extreme_park.jpg',
     song: {
-      title: 'Home',
-      artist: 'Michael Bublé',
-      url: 'https://open.spotify.com/track/2s9QWMzOF3AhRCvmJcavDJ',
+      title: 'Entrega de Amor',
+      artist: 'Los Angeles Azules',
+      url: 'https://music.youtube.com/watch?v=JOwobO_y7R0&si=E3ntsDG9BkWZM46j',
     },
   },
   {
@@ -133,9 +132,9 @@ export const memories = [
     location: 'Feria de Jocotenango',
     imageUrl: 'src/assets/images/primera_vez_feria.jpg',
     song: {
-      title: 'Home',
-      artist: 'Michael Bublé',
-      url: 'https://open.spotify.com/track/2s9QWMzOF3AhRCvmJcavDJ',
+      title: 'La Cadenita',
+      artist: 'La Sonora Dinamita',
+      url: 'https://music.youtube.com/watch?v=A_SiWjPL9-k&si=49ykzwWmB4x3PUWt',
     },
   },
   {
@@ -147,9 +146,9 @@ export const memories = [
     location: 'Irtra Petapa',
     imageUrl: 'src/assets/images/celebrando_pandemia.jpg',
     song: {
-      title: 'Home',
-      artist: 'Michael Bublé',
-      url: 'https://open.spotify.com/track/2s9QWMzOF3AhRCvmJcavDJ',
+      title: 'Soñé',
+      artist: 'El Bronco',
+      url: 'https://music.youtube.com/watch?v=6JuYyIp_M_o&si=EZwtlBFVKsKVAoXo',
     },
   },
   {
@@ -160,9 +159,9 @@ export const memories = [
     location: 'Bonanza La Ponderosa',
     imageUrl: 'src/assets/images/viaje_tecpan.jpg',
     song: {
-      title: 'Home',
-      artist: 'Michael Bublé',
-      url: 'https://open.spotify.com/track/2s9QWMzOF3AhRCvmJcavDJ',
+      title: 'Stay With Me',
+      artist: 'Miki Matsubara',
+      url: 'https://music.youtube.com/watch?v=LnxK1QDw8yw&si=8fRrUy9XzCxQDXj6',
     },
   },
   {
@@ -174,9 +173,9 @@ export const memories = [
     location: 'Irtra Petapa',
     imageUrl: 'src/assets/images/irtra_pandemia.jpg',
     song: {
-      title: 'Home',
-      artist: 'Michael Bublé',
-      url: 'https://open.spotify.com/track/2s9QWMzOF3AhRCvmJcavDJ',
+      title: 'Popular',
+      artist: 'Zoe',
+      url: 'https://music.youtube.com/watch?v=TxFavCjuumo&si=JLYbcw9NoAUCu5ke',
     },
   },
   {
@@ -185,13 +184,12 @@ export const memories = [
     title: 'Primer viaje, solo nosotros',
     description:
       'Es la primera ves que viajamos solos, sin familia, solo nosotros dos. Fue un viaje corto pero nos conectamos bastante y nos llenamos de amor.',
-    location: 'src/assets/images/viaje_bee.jpg',
-    imageUrl:
-      'https://images.pexels.com/photos/3184183/pexels-photo-3184183.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    location: 'Bee Cabañas, Antiuga',
+    imageUrl: 'src/assets/images/viaje_bee.jpg',
     song: {
-      title: 'Home',
-      artist: 'Michael Bublé',
-      url: 'https://open.spotify.com/track/2s9QWMzOF3AhRCvmJcavDJ',
+      title: 'Amaneceme',
+      artist: 'Enjambre',
+      url: 'https://music.youtube.com/watch?v=xcIa-LCV6hk&si=sJE3cMPlh3dvRj_8',
     },
   },
   {
@@ -199,13 +197,13 @@ export const memories = [
     date: 'Siempre Tu',
     title: 'Siempre Tu',
     description:
-      'Tu aura es tan fresca y relajante, siempre me haces sentir bien cuando estoy contigo, siemopre Tu.',
+      'Tu aura es tan fresca y relajante, siempre me haces sentir bien cuando estoy contigo, siempre Tu.',
     location: 'En cualquier lugar',
     imageUrl: 'src/assets/images/siempre_cool.jpg',
     song: {
-      title: 'Home',
-      artist: 'Michael Bublé',
-      url: 'https://open.spotify.com/track/2s9QWMzOF3AhRCvmJcavDJ',
+      title: 'Siempre Tu',
+      artist: 'Enjambre',
+      url: 'https://music.youtube.com/watch?v=NlcGMoDJiek&si=qRH-15XJztZlet7Z',
     },
   },
   {
@@ -217,9 +215,9 @@ export const memories = [
     location: 'Todos los lugares',
     imageUrl: 'src/assets/images/tomando_cafe.jpg',
     song: {
-      title: 'Home',
-      artist: 'Michael Bublé',
-      url: 'https://open.spotify.com/track/2s9QWMzOF3AhRCvmJcavDJ',
+      title: 'Aurora',
+      artist: 'Siddhartha',
+      url: 'https://music.youtube.com/watch?v=1D8LMvHY2Mw&si=nbvpBA8MoIfocgbw',
     },
   },
   {
@@ -229,11 +227,11 @@ export const memories = [
     description:
       'La comida estaba bien, el ambiente era agradable, pero tu torito no era un torito.',
     location: 'Restaurante en Miraflores',
-    imageUrl: 'src/assets/images/el_torito_que_no.jpg',
+    imageUrl: 'src/assets/images/el_torito_que_no.JPG',
     song: {
-      title: 'Home',
-      artist: 'Michael Bublé',
-      url: 'https://open.spotify.com/track/2s9QWMzOF3AhRCvmJcavDJ',
+      title: 'Stuck With You',
+      artist: 'Justin Bieber & Ariana Grande',
+      url: 'https://music.youtube.com/watch?v=yEA3qaB0dH8&si=VvbT2cVSY-5D_xrN',
     },
   },
   {
@@ -244,9 +242,9 @@ export const memories = [
     location: 'Irtra, de noche',
     imageUrl: 'src/assets/images/irtra_noche.jpg',
     song: {
-      title: 'Home',
-      artist: 'Michael Bublé',
-      url: 'https://open.spotify.com/track/2s9QWMzOF3AhRCvmJcavDJ',
+      title: 'Burbujas de Amor',
+      artist: 'Juan Luis Guerra',
+      url: 'https://music.youtube.com/watch?v=G6fJreMyIks&si=reyo8qEwSUaQ-xHT',
     },
   },
   {
@@ -256,11 +254,11 @@ export const memories = [
     description:
       'Empezamos otro año juntos, con muchas ganas de seguir creciendo y aprendiendo juntos.',
     location: 'En Casa',
-    imageUrl: 'src/assets/images/año_nuevo.jpg',
+    imageUrl: 'src/assets/images/año_nuevo.JPG',
     song: {
-      title: 'Home',
-      artist: 'Michael Bublé',
-      url: 'https://open.spotify.com/track/2s9QWMzOF3AhRCvmJcavDJ',
+      title: 'Carmin',
+      artist: 'Leon Larregui',
+      url: 'https://music.youtube.com/watch?v=5D57ipBYvIA&si=KAiPX8tn0Lp1JX4S',
     },
   },
   {
@@ -269,11 +267,11 @@ export const memories = [
     title: 'Viendo las estrellas',
     description: 'Estamos cumpliendo 8 años juntos y celebramos viendo las estrellas.',
     location: 'El Barranco',
-    imageUrl: 'src/assets/images/viendo_las_estrellas.jpg',
+    imageUrl: 'src/assets/images/viendo_las_estrellas.JPG',
     song: {
-      title: 'Home',
-      artist: 'Michael Bublé',
-      url: 'https://open.spotify.com/track/2s9QWMzOF3AhRCvmJcavDJ',
+      title: 'Paraiso Lunar',
+      artist: 'Siddhartha',
+      url: 'https://music.youtube.com/watch?v=spdVRX5kXfU&si=9CcUTPclU64iP-ai',
     },
   },
   {
@@ -283,11 +281,11 @@ export const memories = [
     description:
       'Fuimos a la playa por primera vez juntos, fue un momento mágico lleno de risas y amor.',
     location: 'Puerto Chulamar',
-    imageUrl: 'src/assets/images/viaje_playa.jpg',
+    imageUrl: 'src/assets/images/viaje_puerto.jpg',
     song: {
-      title: 'Home',
-      artist: 'Michael Bublé',
-      url: 'https://open.spotify.com/track/2s9QWMzOF3AhRCvmJcavDJ',
+      title: 'Rayando el Sol',
+      artist: 'Maná',
+      url: 'https://music.youtube.com/watch?v=EDkQB9b3cBw&si=WmDXM5MlQfUJu1dG',
     },
   },
   {
@@ -299,9 +297,9 @@ export const memories = [
     location: 'Parque de la industria',
     imageUrl: 'src/assets/images/primer_concierto.jpg',
     song: {
-      title: 'Home',
-      artist: 'Michael Bublé',
-      url: 'https://open.spotify.com/track/2s9QWMzOF3AhRCvmJcavDJ',
+      title: 'Nuevo Comienzo',
+      artist: 'Usted Señalemelo',
+      url: 'https://music.youtube.com/watch?v=Kq1-BzYAx-A&si=YzNG9H7nQzLwp8gx',
     },
   },
   {
@@ -311,11 +309,11 @@ export const memories = [
     description:
       'En tu cumpleaños, decidimos celebrar a lo italiano, con una cena especial en un rincon bonito.',
     location: 'Restaurante Dolcelato',
-    imageUrl: 'src/assets/images/dolcelato.jpg',
+    imageUrl: 'src/assets/images/dolcetato.jpg',
     song: {
-      title: 'Home',
-      artist: 'Michael Bublé',
-      url: 'https://open.spotify.com/track/2s9QWMzOF3AhRCvmJcavDJ',
+      title: 'Amor para los dos',
+      artist: 'Jose Jose',
+      url: 'https://music.youtube.com/watch?v=KiIiHlxik_8&si=5jRAAYKpdoCicksO',
     },
   },
   {
@@ -327,9 +325,9 @@ export const memories = [
     location: 'En todos los lugares',
     imageUrl: 'src/assets/images/tu_y_yo.jpg',
     song: {
-      title: 'Home',
-      artist: 'Michael Bublé',
-      url: 'https://open.spotify.com/track/2s9QWMzOF3AhRCvmJcavDJ',
+      title: 'Te Quiero Tal Como Eres',
+      artist: 'Luis Humberto Navejas',
+      url: 'https://music.youtube.com/watch?v=onVVDN6XYd4&si=HQP2knyAhbZJfQS3',
     },
   },
   {
@@ -341,9 +339,9 @@ export const memories = [
     location: 'Jalapa',
     imageUrl: 'src/assets/images/en_los_chorros.jpg',
     song: {
-      title: 'Home',
-      artist: 'Michael Bublé',
-      url: 'https://open.spotify.com/track/2s9QWMzOF3AhRCvmJcavDJ',
+      title: 'Diamantes',
+      artist: 'Siddhartha',
+      url: 'https://music.youtube.com/watch?v=1STgIyfuK10&si=VQYHNRwTK1PxY3MW',
     },
   },
   {
@@ -355,9 +353,9 @@ export const memories = [
     location: 'Santa Teresita, Amatitlán',
     imageUrl: 'src/assets/images/santa_teresita.jpg',
     song: {
-      title: 'Home',
-      artist: 'Michael Bublé',
-      url: 'https://open.spotify.com/track/2s9QWMzOF3AhRCvmJcavDJ',
+      title: 'Vamonos de Viaje',
+      artist: 'Bandalos Chinos',
+      url: 'https://music.youtube.com/watch?v=Rwdd9TERzvk&si=vqz9RlwFXniWm-h0',
     },
   },
   {
@@ -365,13 +363,13 @@ export const memories = [
     date: 'Noviembre, 2024',
     title: 'Buscando un hogar',
     description:
-      'HTu y yo hemos estado buscando un hogar juntos, un lugar donde podamos construir nuestro futuro.',
+      'Tu y yo hemos estado buscando un hogar juntos, un lugar donde podamos construir nuestro futuro.',
     location: 'San José Pinula',
     imageUrl: 'src/assets/images/buscando_un_hogar.jpg',
     song: {
-      title: 'Home',
-      artist: 'Michael Bublé',
-      url: 'https://open.spotify.com/track/2s9QWMzOF3AhRCvmJcavDJ',
+      title: 'Amantes',
+      artist: 'Leon Larregui',
+      url: 'https://music.youtube.com/watch?v=B5vkMFprnqE&si=6_vEPU4FGa59g9oh',
     },
   },
   {
@@ -383,9 +381,9 @@ export const memories = [
     location: 'En tu casa',
     imageUrl: 'src/assets/images/primera_navidad.jpg',
     song: {
-      title: 'Home',
-      artist: 'Michael Bublé',
-      url: 'https://open.spotify.com/track/2s9QWMzOF3AhRCvmJcavDJ',
+      title: 'Last Christmas',
+      artist: 'Wham!',
+      url: 'https://music.youtube.com/watch?v=GJvGf_ifiKw&si=H8SE_WmS5bVyOMlB',
     },
   },
   {
@@ -397,9 +395,9 @@ export const memories = [
     location: 'Altamira, Antigua Guatemala',
     imageUrl: 'src/assets/images/viaje_altamira.jpg',
     song: {
-      title: 'Home',
-      artist: 'Michael Bublé',
-      url: 'https://open.spotify.com/track/2s9QWMzOF3AhRCvmJcavDJ',
+      title: 'Extraños',
+      artist: 'Siddhartha',
+      url: 'https://music.youtube.com/watch?v=btnwAALXDlc&si=yuLlDY1JO5WnZoYg',
     },
   },
   {
@@ -411,9 +409,9 @@ export const memories = [
     location: 'El Trapiche, Guatemala',
     imageUrl: 'src/assets/images/viendo_ortalizas.jpg',
     song: {
-      title: 'Home',
-      artist: 'Michael Bublé',
-      url: 'https://open.spotify.com/track/2s9QWMzOF3AhRCvmJcavDJ',
+      title: 'Tulipanes',
+      artist: 'Enjambre',
+      url: 'https://music.youtube.com/watch?v=OQjNPaJW6j4&si=j3JRHFyQpcIirw3N',
     },
   },
   {
@@ -425,9 +423,9 @@ export const memories = [
     location: 'Parque de la Industria',
     imageUrl: 'src/assets/images/viendo_siddartha.jpg',
     song: {
-      title: 'Home',
-      artist: 'Michael Bublé',
-      url: 'https://open.spotify.com/track/2s9QWMzOF3AhRCvmJcavDJ',
+      title: '00:00',
+      artist: 'Siddhartha',
+      url: 'https://music.youtube.com/watch?v=pJ_r01RIsuk&si=FGPjn2AfqwQ_KnYE',
     },
   },
   {
@@ -439,9 +437,9 @@ export const memories = [
     location: 'UnCrepe, Guatemala',
     imageUrl: 'src/assets/images/probando_lo_dulce.jpg',
     song: {
-      title: 'Home',
-      artist: 'Michael Bublé',
-      url: 'https://open.spotify.com/track/2s9QWMzOF3AhRCvmJcavDJ',
+      title: 'Una Vida Pasada',
+      artist: 'Camilo',
+      url: 'https://music.youtube.com/watch?v=hrcBnDALOQs&si=8PiurArCWaamABEL',
     },
   },
   {
@@ -450,11 +448,11 @@ export const memories = [
     title: 'Vacaciones en Amatitlan',
     description: 'Un fin de semana en Amatitlán, disfrutando del sol y la compañía.',
     location: 'Amatitlán',
-    imageUrl: 'src/assets/images/irtra_amatitlan.jpg',
+    imageUrl: 'src/assets/images/itra_amatitlan.jpg',
     song: {
-      title: 'Home',
-      artist: 'Michael Bublé',
-      url: 'https://open.spotify.com/track/2s9QWMzOF3AhRCvmJcavDJ',
+      title: 'Tratame Suavemente',
+      artist: 'Soda Stereo',
+      url: 'https://music.youtube.com/watch?v=VbFfuHxyGEI&si=_h48NgSxA_tjmju3',
     },
   },
 ]
