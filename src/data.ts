@@ -21,7 +21,7 @@ export const memories = [
     description:
       'Nuestro primer beso fue sencillo, fue un impulso, un instinto. Solo te miré y me acerqué.',
     location: 'Cine de Tikal Futura',
-    imageUrl: 'src/assets/images/primer_beso.jpg',
+    imageUrl: '/our-time-vue/images/primer_beso.jpg',
     song: {
       title: 'Runaway (U & I)',
       artist: 'Galantis',
@@ -35,7 +35,7 @@ export const memories = [
     description:
       'En el mismo lugar donde te di el primer beso, me dejiste que si y pero tu cuerpo decia no. Recuerdo que te regalé un cafe y no te cayo tan bien. A pesar de todo, ese momento me hace feliz.',
     location: 'Cine de Tikal Futura',
-    imageUrl: 'src/assets/images/primera_vez_nobios.jpg',
+    imageUrl: '/our-time-vue/images/primera_vez_nobios.jpg',
     song: {
       title: 'Es Por Ti',
       artist: 'Juanes',
@@ -49,7 +49,7 @@ export const memories = [
     description:
       'Fue un día lleno de risas y emociones. Recuerdo que es la primera vez que te vi palida despues de subir al rascacielos.',
     location: 'Irtra Petapa',
-    imageUrl: 'src/assets/images/foto_irtra.jpg',
+    imageUrl: '/our-time-vue/images/foto_irtra.jpg',
     song: {
       title: 'Departamento',
       artist: 'Bandalos Chinos',
@@ -63,7 +63,7 @@ export const memories = [
     description:
       'Empezamos a salir juntos al parque de la naciones unidas y disfrutar de nosotros, empezamos a conocernos intimamente.',
     location: 'parque de la naciones unidas',
-    imageUrl: 'src/assets/images/Nacines.jpg',
+    imageUrl: '/our-time-vue/images/Nacines.jpg',
     song: {
       title: 'Carmin',
       artist: 'Romeo Santos ft. Juan Luis Guerra',
@@ -77,7 +77,7 @@ export const memories = [
     description:
       'Hemos estado yendo al Irtra tantas veces juntos que nuestras fotos son incontables.',
     location: 'Irtra',
-    imageUrl: 'src/assets/images/Recuerdo_irtra.jpg',
+    imageUrl: '/our-time-vue/images/Recuerdo_irtra.jpg',
     song: {
       title: 'Que Lindo es Acordame de Vos',
       artist: 'Bandalos Chinos',
@@ -104,7 +104,7 @@ export const memories = [
     description:
       'Te vi aprendiendo a manejar la bicicleta, te costo un poco pero al final lo lograste',
     location: 'Naciones Unidas',
-    imageUrl: 'src/assets/images/manejando_bici.jpg',
+    imageUrl: '/our-time-vue/images/manejando_bici.jpg',
     song: {
       title: 'La Bicicleta',
       artist: 'Carlos Vives & Shakira',
@@ -117,7 +117,7 @@ export const memories = [
     title: 'El Parque Extremo',
     description: 'Tu y yo diviertendos al extremo.',
     location: 'Extreme Park',
-    imageUrl: 'src/assets/images/extreme_park.jpg',
+    imageUrl: '/our-time-vue/images/extreme_park.jpg',
     song: {
       title: 'Entrega de Amor',
       artist: 'Los Angeles Azules',
@@ -130,7 +130,7 @@ export const memories = [
     title: 'Feria de Jocotenango',
     description: 'La feria de Jocotenango fue un momento especial, nuestra primera feria juntos.',
     location: 'Feria de Jocotenango',
-    imageUrl: 'src/assets/images/primera_vez_feria.jpg',
+    imageUrl: '/our-time-vue/images/primera_vez_feria.jpg',
     song: {
       title: 'La Cadenita',
       artist: 'La Sonora Dinamita',
@@ -144,7 +144,7 @@ export const memories = [
     description:
       'La pandemia nos hizo estar separados por un tiempo, pero aprendimos a valorarnos más y a disfrutar de los pequeños momentos juntos.',
     location: 'Irtra Petapa',
-    imageUrl: 'src/assets/images/celebrando_pandemia.jpg',
+    imageUrl: '/our-time-vue/images/celebrando_pandemia.jpg',
     song: {
       title: 'Soñé',
       artist: 'El Bronco',
@@ -157,7 +157,7 @@ export const memories = [
     title: 'Nuestro primer viaje juntos',
     description: 'Fuimos sin planear mucho con mi familia, tu y yo hablamos de lo que sentimos.',
     location: 'Bonanza La Ponderosa',
-    imageUrl: 'src/assets/images/viaje_tecpan.jpg',
+    imageUrl: '/our-time-vue/images/viaje_tecpan.jpg',
     song: {
       title: 'Stay With Me',
       artist: 'Miki Matsubara',
@@ -171,7 +171,7 @@ export const memories = [
     description:
       'Aun hay secuelas de la pandemia, pero empezamos el año juntos y con muchas ganas.',
     location: 'Irtra Petapa',
-    imageUrl: 'src/assets/images/irtra_pandemia.jpg',
+    imageUrl: '/our-time-vue/images/irtra_pandemia.jpg',
     song: {
       title: 'Popular',
       artist: 'Zoe',
@@ -185,7 +185,7 @@ export const memories = [
     description:
       'Es la primera ves que viajamos solos, sin familia, solo nosotros dos. Fue un viaje corto pero nos conectamos bastante y nos llenamos de amor.',
     location: 'Bee Cabañas, Antiuga',
-    imageUrl: 'src/assets/images/viaje_bee.jpg',
+    imageUrl: '/our-time-vue/images/viaje_bee.jpg',
     song: {
       title: 'Amaneceme',
       artist: 'Enjambre',
@@ -199,7 +199,7 @@ export const memories = [
     description:
       'Tu aura es tan fresca y relajante, siempre me haces sentir bien cuando estoy contigo, siempre Tu.',
     location: 'En cualquier lugar',
-    imageUrl: 'src/assets/images/siempre_cool.jpg',
+    imageUrl: '/our-time-vue/images/siempre_cool.jpg',
     song: {
       title: 'Siempre Tu',
       artist: 'Enjambre',
@@ -213,7 +213,7 @@ export const memories = [
     description:
       'Tu y yo tomando café, hablando de la vida es siempre un clásico que nunca pasa de moda.',
     location: 'Todos los lugares',
-    imageUrl: 'src/assets/images/tomando_cafe.jpg',
+    imageUrl: '/our-time-vue/images/tomando_cafe.jpg',
     song: {
       title: 'Aurora',
       artist: 'Siddhartha',
@@ -227,7 +227,7 @@ export const memories = [
     description:
       'La comida estaba bien, el ambiente era agradable, pero tu torito no era un torito.',
     location: 'Restaurante en Miraflores',
-    imageUrl: 'src/assets/images/el_torito_que_no.JPG',
+    imageUrl: '/our-time-vue/images/el_torito_que_no.JPG',
     song: {
       title: 'Stuck With You',
       artist: 'Justin Bieber & Ariana Grande',
@@ -240,7 +240,7 @@ export const memories = [
     title: '7 Años Juntos',
     description: 'Celebramos tarde nuestro aniversario, pero lo hicimos con mucho amor y alegría.',
     location: 'Irtra, de noche',
-    imageUrl: 'src/assets/images/irtra_noche.jpg',
+    imageUrl: '/our-time-vue/images/irtra_noche.jpg',
     song: {
       title: 'Burbujas de Amor',
       artist: 'Juan Luis Guerra',
@@ -254,7 +254,7 @@ export const memories = [
     description:
       'Empezamos otro año juntos, con muchas ganas de seguir creciendo y aprendiendo juntos.',
     location: 'En Casa',
-    imageUrl: 'src/assets/images/año_nuevo.JPG',
+    imageUrl: '/our-time-vue/images/año_nuevo.JPG',
     song: {
       title: 'Carmin',
       artist: 'Leon Larregui',
@@ -267,7 +267,7 @@ export const memories = [
     title: 'Viendo las estrellas',
     description: 'Estamos cumpliendo 8 años juntos y celebramos viendo las estrellas.',
     location: 'El Barranco',
-    imageUrl: 'src/assets/images/viendo_las_estrellas.JPG',
+    imageUrl: '/our-time-vue/images/viendo_las_estrellas.JPG',
     song: {
       title: 'Paraiso Lunar',
       artist: 'Siddhartha',
@@ -281,7 +281,7 @@ export const memories = [
     description:
       'Fuimos a la playa por primera vez juntos, fue un momento mágico lleno de risas y amor.',
     location: 'Puerto Chulamar',
-    imageUrl: 'src/assets/images/viaje_puerto.jpg',
+    imageUrl: '/our-time-vue/images/viaje_puerto.jpg',
     song: {
       title: 'Rayando el Sol',
       artist: 'Maná',
@@ -295,7 +295,7 @@ export const memories = [
     description:
       'Fuimos a nuestro primer concierto juntos, fue una experiencia inolvidable llena de música',
     location: 'Parque de la industria',
-    imageUrl: 'src/assets/images/primer_concierto.jpg',
+    imageUrl: '/our-time-vue/images/primer_concierto.jpg',
     song: {
       title: 'Nuevo Comienzo',
       artist: 'Usted Señalemelo',
@@ -309,7 +309,7 @@ export const memories = [
     description:
       'En tu cumpleaños, decidimos celebrar a lo italiano, con una cena especial en un rincon bonito.',
     location: 'Restaurante Dolcelato',
-    imageUrl: 'src/assets/images/dolcetato.jpg',
+    imageUrl: '/our-time-vue/images/dolcetato.jpg',
     song: {
       title: 'Amor para los dos',
       artist: 'Jose Jose',
@@ -323,7 +323,7 @@ export const memories = [
     description:
       'Cerca de mi cumpleaños, recuerdo que tu y yo somos más que una pareja, estamos conectados de una manera especial.',
     location: 'En todos los lugares',
-    imageUrl: 'src/assets/images/tu_y_yo.jpg',
+    imageUrl: '/our-time-vue/images/tu_y_yo.jpg',
     song: {
       title: 'Te Quiero Tal Como Eres',
       artist: 'Luis Humberto Navejas',
@@ -337,7 +337,7 @@ export const memories = [
     description:
       'Un viaje corto a Jalapa con tu familia, un chapuzon en los Chorros, un momento especial contigo.',
     location: 'Jalapa',
-    imageUrl: 'src/assets/images/en_los_chorros.jpg',
+    imageUrl: '/our-time-vue/images/en_los_chorros.jpg',
     song: {
       title: 'Diamantes',
       artist: 'Siddhartha',
@@ -351,7 +351,7 @@ export const memories = [
     description:
       'Hemos ido a Santa Teresita, un lugar bonito para relajarnos y disfrutar de la vista.',
     location: 'Santa Teresita, Amatitlán',
-    imageUrl: 'src/assets/images/santa_teresita.jpg',
+    imageUrl: '/our-time-vue/images/santa_teresita.jpg',
     song: {
       title: 'Vamonos de Viaje',
       artist: 'Bandalos Chinos',
@@ -365,7 +365,7 @@ export const memories = [
     description:
       'Tu y yo hemos estado buscando un hogar juntos, un lugar donde podamos construir nuestro futuro.',
     location: 'San José Pinula',
-    imageUrl: 'src/assets/images/buscando_un_hogar.jpg',
+    imageUrl: '/our-time-vue/images/buscando_un_hogar.jpg',
     song: {
       title: 'Amantes',
       artist: 'Leon Larregui',
@@ -379,7 +379,7 @@ export const memories = [
     description:
       'Ha sido nuestra primera Navidad juntos, disfrutamos de la cena, la familia y estar juntos.',
     location: 'En tu casa',
-    imageUrl: 'src/assets/images/primera_navidad.jpg',
+    imageUrl: '/our-time-vue/images/primera_navidad.jpg',
     song: {
       title: 'Last Christmas',
       artist: 'Wham!',
@@ -393,7 +393,7 @@ export const memories = [
     description:
       'No es el mejor viaje que hemos hecho, pero es gracioso recordar los momentos que pasamos juntos, aun asi tiene unas de las mejores vistas.',
     location: 'Altamira, Antigua Guatemala',
-    imageUrl: 'src/assets/images/viaje_altamira.jpg',
+    imageUrl: '/our-time-vue/images/viaje_altamira.jpg',
     song: {
       title: 'Extraños',
       artist: 'Siddhartha',
@@ -407,7 +407,7 @@ export const memories = [
     description:
       'Nos hechamos una vuelta por el Trapiche, Guatemala, donde vimos hortalizas y disfrutamos del jardin',
     location: 'El Trapiche, Guatemala',
-    imageUrl: 'src/assets/images/viendo_ortalizas.jpg',
+    imageUrl: '/our-time-vue/images/viendo_ortalizas.jpg',
     song: {
       title: 'Tulipanes',
       artist: 'Enjambre',
@@ -421,7 +421,7 @@ export const memories = [
     description:
       'Nunca te habia visto tan feliz, el concierto de Siddharta fue un momento especial, lleno de música y emoción.',
     location: 'Parque de la Industria',
-    imageUrl: 'src/assets/images/viendo_siddartha.jpg',
+    imageUrl: '/our-time-vue/images/viendo_siddartha.jpg',
     song: {
       title: '00:00',
       artist: 'Siddhartha',
@@ -435,7 +435,7 @@ export const memories = [
     description:
       'Siempre nos ha gustado lo dulce, que viva el exceso de azucar y la comida deliciosa.',
     location: 'UnCrepe, Guatemala',
-    imageUrl: 'src/assets/images/probando_lo_dulce.jpg',
+    imageUrl: '/our-time-vue/images/probando_lo_dulce.jpg',
     song: {
       title: 'Una Vida Pasada',
       artist: 'Camilo',
@@ -448,7 +448,7 @@ export const memories = [
     title: 'Vacaciones en Amatitlan',
     description: 'Un fin de semana en Amatitlán, disfrutando del sol y la compañía.',
     location: 'Amatitlán',
-    imageUrl: 'src/assets/images/itra_amatitlan.jpg',
+    imageUrl: '/our-time-vue/images/itra_amatitlan.jpg',
     song: {
       title: 'Tratame Suavemente',
       artist: 'Soda Stereo',
