@@ -4,7 +4,7 @@
       class="flex flex-col h-full transition-all duration-700 transform"
       :class="[isActive ? 'opacity-100 scale-100' : 'opacity-40 scale-95']"
     >
-      <div class="relative w-full aspect-[9/16] overflow-hidden rounded-t-xl">
+      <div class="relative w-full aspect-[9/11] overflow-hidden rounded-t-xl">
         <img
           :src="memory.imageUrl"
           :alt="memory.title"
